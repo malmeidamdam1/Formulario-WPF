@@ -7,17 +7,22 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="1000" Width="800">
     <Grid>
+
+        <Label Content="Introducción de Datos de Empleados" HorizontalAlignment="Left" VerticalAlignment="Top" Width="400" Margin="250,10,0,0" Height="50" FontSize="20"/>
+
         <Label Content="Nombre*" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" Width="67" Margin="40,94,0,0"/>
         <Label Content="Apellidos*" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" Width="67" Margin="40,133,0,0"/>
-        <Label Content="Teléfono*" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" Width="67" Margin="40,177,0,0"/>
-        <Label Content="Nombre*" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" Width="67" Margin="40,226,0,0"/>
+        <Label Content="E-mail*" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" Width="67" Margin="40,177,0,0"/>
+        <Label Content="Teléfono*" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" Width="67" Margin="40,226,0,0"/>
         <Label Content="Fecha de nacimiento" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" Width="130" Margin="40,272,0,0"/>
         <Label Content="DNI" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" Width="67" Margin="40,318,0,0" RenderTransformOrigin="0.597,9.042"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="107,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="371"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="107,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="371"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="112,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="371"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="107,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="371"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="112,322,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="371"/>
+
+        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="20" Margin="107,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="371" Text="{Binding Nombre}"/>
+        <TextBox x:Name="txtApellidos" HorizontalAlignment="Left" Height="20" Margin="107,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="371" Text="{Binding Nombre}" />
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="20" Margin="112,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="371" Text="{Binding Nombre}"/>
+        <TextBox x:Name="txtTelefono" HorizontalAlignment="Left" Height="20" Margin="107,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="371" Text="{Binding Nombre}"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="112,322,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="371" Text="{Binding Nombre}"/>
+        
         <Label Content="Adjuntar fotografía" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" Width="121" Margin="10,357,0,0"/>
 
 
@@ -28,20 +33,25 @@
         <Label Content="Domicilio" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" Width="67" Margin="5,464,0,0"/>
 
 
-        <TextBox Name="txtDireccion"  HorizontalAlignment="Left" Height="20" Margin="77,393,0,0" VerticalAlignment="Top" Width="371">
-            
-        </TextBox>
+        <TextBox Name="txtDireccion" Text="Dirección"  HorizontalAlignment="Left" Height="20" Margin="77,393,0,0" VerticalAlignment="Top" Width="371" GotFocus="Txt_GotFocus" LostFocus="Txt_lostFocus"/>
 
 
 
-            <TextBox Name="txtCiudad" HorizontalAlignment="Left" Height="20" Margin="77,418,0,0" VerticalAlignment="Top" Width="371">
-            
-        </TextBox>
-        <TextBox Name="txtProvincia"  HorizontalAlignment="Left" Height="20" Margin="77,443,0,0" VerticalAlignment="Top" Width="371">
-            
-        </TextBox>
-        <TextBox Name="txtCodigoPostal"  HorizontalAlignment="Left" Height="20" Margin="77,468,0,0" VerticalAlignment="Top" Width="371" Text="Código Postal"/>
-        <TextBox Name="txtPais"  HorizontalAlignment="Left" Height="20" Margin="77,493,0,0" VerticalAlignment="Top" Width="371" Text="País"/>
+        <TextBox Name="txtCiudad" Text="Ciudad" HorizontalAlignment="Left" Height="20" Margin="77,418,0,0" VerticalAlignment="Top" Width="371" GotFocus="Txt_GotFocus" LostFocus="Txt_lostFocus"/>
+
+
+
+        <TextBox Name="txtProvincia" Text="Provincia"  HorizontalAlignment="Left" Height="20" Margin="77,443,0,0" VerticalAlignment="Top" Width="371" GotFocus="Txt_GotFocus" LostFocus="Txt_lostFocus"/>
+
+
+
+
+        <TextBox Name="txtCodigoPostal" Text="Códgio Postal"  HorizontalAlignment="Left" Height="20" Margin="77,468,0,0" VerticalAlignment="Top" Width="371" GotFocus="Txt_GotFocus" LostFocus="Txt_lostFocus"/>
+
+
+
+
+        <TextBox Name="txtPais"  Text="País" HorizontalAlignment="Left" Height="20" Margin="77,493,0,0" VerticalAlignment="Top" Width="371" GotFocus="Txt_GotFocus" LostFocus="Txt_lostFocus"/>
 
 
 
@@ -52,16 +62,34 @@
         <Label Content="Rol actual" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" Width="67" Margin="10,594,0,0"/>
         <Label Content="Descripción del puesto de trabajo actual:" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" Width="247" Margin="15,644,0,0"/>
         <TextBox HorizontalAlignment="Left" Height="48" Margin="20,672,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="414"/>
-        <Button Content="Guardar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="121" Margin="141,730,0,0" Height="24"/>
-        <Button Content="Cancelar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="119" Margin="283,730,0,0" Height="24"/>
-        <DataGrid HorizontalAlignment="Left" Height="130" Margin="40,772,0,0" VerticalAlignment="Top" Width="610"/>
+        <Button x:Name="guardarBoton" Content="Guardar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="121" Margin="141,730,0,0" Height="24" Click="Button_Click"/>
+        <Button x:Name="cancelarBoton" Content="Cancelar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="119" Margin="283,730,0,0" Height="24"/>
+
+            
+        <!--Aqui usamos binding para traer informacion de arriba-->
+            <DataGrid Name="dataGrid" HorizontalAlignment="Left" Height="130" Margin="40,772,0,0" VerticalAlignment="Top" Width="610">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Nombre" Binding="{Binding Nombre}"/>
+                    <DataGridTextColumn Header="Apellidos" Binding="{Binding Apellidos}"/>
+                    <DataGridTextColumn Header="Email" Binding="{Binding X}"/>
+                    <DataGridTextColumn Header="Teléfono" Binding="{Binding Telefono}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        
+        
+        
+        
         <DatePicker HorizontalAlignment="Left" Height="24" Margin="175,272,0,0" VerticalAlignment="Top" Width="149"/>
-        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="95,596,0,0"/>
-        <Label Content="Introducción de Datos de Empleados" HorizontalAlignment="Left" VerticalAlignment="Top" Width="400" Margin="250,10,0,0" Height="50" FontSize="20"/>
+        
+        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="95,596,0,0">
+            <ComboBoxItem Content="Jefe" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Empleado" HorizontalAlignment="Left" Width="118"/>
+        </ComboBox>
+
+
         <Image x:Name="imgFoto" HorizontalAlignment="Left" Height="120" VerticalAlignment="Top" Width="137" Margin="483,393,0,0" Source="SLOGAN.png"/>
-
-
-
+        
+        
 
     </Grid>
 </Window>
