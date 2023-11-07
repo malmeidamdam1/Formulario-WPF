@@ -13,3 +13,18 @@ C:\Users\alumMA\Asignaturas\Desarrollo Interfaces\Formulario WPF\Formulario WPF 
 C:\Users\alumMA\Asignaturas\Desarrollo Interfaces\Formulario WPF\Formulario WPF Midgard Almeida\Formulario WPF Midgard Almeida\obj\Debug\Formulario WPF Midgard Almeida.csproj.CoreCompileInputs.cache
 C:\Users\alumMA\Asignaturas\Desarrollo Interfaces\Formulario WPF\Formulario WPF Midgard Almeida\Formulario WPF Midgard Almeida\obj\Debug\Formulario WPF Midgard Almeida.exe
 C:\Users\alumMA\Asignaturas\Desarrollo Interfaces\Formulario WPF\Formulario WPF Midgard Almeida\Formulario WPF Midgard Almeida\obj\Debug\Formulario WPF Midgard Almeida.pdb
+C:\Users\DAM Almeida\Desktop\Formulario-WPF\Formulario WPF Midgard Almeida\Formulario WPF Midgard Almeida\bin\Debug\Formulario WPF Midgard Almeida.exe.config
+C:\Users\DAM Almeida\Desktop\Formulario-WPF\Formulario WPF Midgard Almeida\Formulario WPF Midgard Almeida\bin\Debug\Formulario WPF Midgard Almeida.exe
+C:\Users\DAM Almeida\Desktop\Formulario-WPF\Formulario WPF Midgard Almeida\Formulario WPF Midgard Almeida\bin\Debug\Formulario WPF Midgard Almeida.pdb
+C:\Users\DAM Almeida\Desktop\Formulario-WPF\Formulario WPF Midgard Almeida\Formulario WPF Midgard Almeida\obj\Debug\Formulario WPF Midgard Almeida.csproj.AssemblyReference.cache
+C:\Users\DAM Almeida\Desktop\Formulario-WPF\Formulario WPF Midgard Almeida\Formulario WPF Midgard Almeida\obj\Debug\MainWindow.g.cs
+C:\Users\DAM Almeida\Desktop\Formulario-WPF\Formulario WPF Midgard Almeida\Formulario WPF Midgard Almeida\obj\Debug\App.g.cs
+C:\Users\DAM Almeida\Desktop\Formulario-WPF\Formulario WPF Midgard Almeida\Formulario WPF Midgard Almeida\obj\Debug\Formulario WPF Midgard Almeida_MarkupCompile.cache
+C:\Users\DAM Almeida\Desktop\Formulario-WPF\Formulario WPF Midgard Almeida\Formulario WPF Midgard Almeida\obj\Debug\Formulario WPF Midgard Almeida_MarkupCompile.lref
+C:\Users\DAM Almeida\Desktop\Formulario-WPF\Formulario WPF Midgard Almeida\Formulario WPF Midgard Almeida\obj\Debug\MainWindow.baml
+C:\Users\DAM Almeida\Desktop\Formulario-WPF\Formulario WPF Midgard Almeida\Formulario WPF Midgard Almeida\obj\Debug\Formulario WPF Midgard Almeida.g.resources
+C:\Users\DAM Almeida\Desktop\Formulario-WPF\Formulario WPF Midgard Almeida\Formulario WPF Midgard Almeida\obj\Debug\Formulario_WPF_Midgard_Almeida.Properties.Resources.resources
+C:\Users\DAM Almeida\Desktop\Formulario-WPF\Formulario WPF Midgard Almeida\Formulario WPF Midgard Almeida\obj\Debug\Formulario WPF Midgard Almeida.csproj.GenerateResource.cache
+C:\Users\DAM Almeida\Desktop\Formulario-WPF\Formulario WPF Midgard Almeida\Formulario WPF Midgard Almeida\obj\Debug\Formulario WPF Midgard Almeida.csproj.CoreCompileInputs.cache
+C:\Users\DAM Almeida\Desktop\Formulario-WPF\Formulario WPF Midgard Almeida\Formulario WPF Midgard Almeida\obj\Debug\Formulario WPF Midgard Almeida.exe
+C:\Users\DAM Almeida\Desktop\Formulario-WPF\Formulario WPF Midgard Almeida\Formulario WPF Midgard Almeida\obj\Debug\Formulario WPF Midgard Almeida.pdb

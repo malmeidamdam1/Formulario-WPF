@@ -46,7 +46,7 @@
 
 
 
-        <TextBox Name="txtCodigoPostal" Text="Códgio Postal"  HorizontalAlignment="Left" Height="20" Margin="77,468,0,0" VerticalAlignment="Top" Width="371" GotFocus="Txt_GotFocus" LostFocus="Txt_lostFocus"/>
+        <TextBox Name="txtCodigoPostal" Text="Código Postal"  HorizontalAlignment="Left" Height="20" Margin="77,468,0,0" VerticalAlignment="Top" Width="371" GotFocus="Txt_GotFocus" LostFocus="Txt_lostFocus"/>
 
 
 

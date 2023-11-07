@@ -47,7 +47,7 @@ namespace Formulario_WPF_Midgard_Almeida
         private void Txt_GotFocus(object sender, RoutedEventArgs e)
         {
             if (sender is TextBox textBox) {
-                if (textBox.Text == "Direccion" || textBox.Text == "Ciudad" || textBox.Text == "Provincia" || textBox.Text == "Codio Postal" || textBox.Text == "Pais")
+                if (textBox.Text == "Dirección" || textBox.Text == "Ciudad" || textBox.Text == "Provincia" || textBox.Text == "Código Postal" || textBox.Text == "País")
                 {
                     textBox.Text = "";
                 }
@@ -61,8 +61,26 @@ namespace Formulario_WPF_Midgard_Almeida
             {
                 if (string.IsNullOrWhiteSpace(textBox.Text))
                 {
-                    //if (textBox.Name == "txtDireccion")
-
+                    switch(textBox.Name)
+                    {
+                        case "txtDireccion":
+                            textBox.Text = "Dirección";
+                            break;
+                        case "txtCiudad":
+                            textBox.Text = "Ciudad";
+                            break;
+                        case "txtProvincia":
+                            textBox.Text = "Provincia";
+                            break;
+                        case "txtCodigoPostal":
+                            textBox.Text = "Código Postal";
+                            break;
+                        case "txtPais":
+                            textBox.Text = "País";
+                            break;
+                        default:
+                            break;
+                    }
 
                 }
 
